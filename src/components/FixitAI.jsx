@@ -3,7 +3,7 @@ import { AiFillAudio } from "react-icons/ai";
 import { BsChatLeftText } from "react-icons/bs";
 import { LuBrainCircuit } from "react-icons/lu";
 import { AiOutlinePlayCircle } from "react-icons/ai";
-import { Button } from "../components/ui/moving-border";
+import { Button, MovingBorder } from "../components/ui/moving-border";
 
 const FixitAI = () => {
   const [selectedComponent, setSelectedComponent] = useState("AudioBot");
@@ -199,7 +199,14 @@ const AudioIntelligence = () => {
 
       {/* Right Section */}
       <div className="flex flex-col items-center justify-center w-full md:w-[60%] p-6 bg-[#0A0A0A] h-[40vh] md:h-auto">
-        <p className="text-center text-xl">The data will be shown here.</p>
+        <p className="text-center text-xl pb-6 w-3/4">
+          Amplify audio Insights. <span className="text-white">Analyze</span>{" "}
+          and <span className="text-white">unlock insights</span> with{" "}
+          <span className="text-white">audio intelligence.</span>
+        </p>
+        <button className=" w-[17vw] h-[6vh] rounded-md border text-grey-700 border-white">
+          Start Analysis
+        </button>
       </div>
     </div>
   );
