@@ -204,8 +204,8 @@ const AudioIntelligence = () => {
           and <span className="text-white">unlock insights</span> with{" "}
           <span className="text-white">audio intelligence.</span>
         </p>
-        <button className=" w-[17vw] h-[6vh] rounded-md border text-grey-700 border-white">
-          Start Analysis
+        <button className="btn btn-2 hover-slide-left w-[17vw] h-[6vh] rounded-md border text-grey-700 border-white">
+          <div>Start Analysis</div>
         </button>
       </div>
     </div>

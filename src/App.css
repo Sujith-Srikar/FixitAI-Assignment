@@ -1,0 +1,33 @@
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+.btn {
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-2::before {
+  background-color: rgb(28, 31, 30);
+  transition: 0.5s ease-out;
+}
+.btn-2 div {
+  color: #9ca3af;
+  position: relative;
+  z-index: 2; /
+  transition: color 0.2s;
+}
+
+.btn-2:hover div {
+  color: rgb(255, 255, 255);
+}
+
+.btn.hover-slide-left::before {
+  top: 0; bottom: 0; right: 0; 
+  height: 100%; width: 0%;
+  border-radius: 11%;
+}
+.btn.hover-slide-left:hover::before {
+  width: 100%;
+}
