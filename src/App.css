@@ -15,7 +15,7 @@
 .btn-2 div {
   color: #9ca3af;
   position: relative;
-  z-index: 2; /
+  z-index: 2; 
   transition: color 0.2s;
 }
 
